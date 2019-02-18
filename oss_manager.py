@@ -7,6 +7,7 @@ try:
     from my_utils import *
 except ImportError as e:
     print_error(e)
+    raise e
 
 
 class OssManager:
@@ -41,12 +42,15 @@ class OssManager:
                 self.bucket.put_object(remote_file, local_file.read())
 
             print("[*] Upload ok - " + file)
+
         except oss2.exceptions.RequestError as e:
-            print_error(e,other_string=
+            print_error(e, other_string=
             "[!] Fail to Connect with Ali-OSS" + "|" +
             "[!] Please Check Your Config File and Try again")
+            raise e
         except Exception as e2:
             print_error(e2, other_string="[!] Unknow Error!" )
+            raise e2
 
         target_path = "http://{0}/{1}".format(
             self.bucket_domain_name,

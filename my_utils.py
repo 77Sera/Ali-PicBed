@@ -9,7 +9,6 @@ def print_error(e, other_string=""):
         print(line)
     print(e)
     print("\n-----------E N D------------")
-    exit(0)
 
 
 def get_time():
@@ -58,7 +57,3 @@ def load_config(config_file):
                 k,v = k.strip(),v.strip()
                 r[k] = v
     return r
-
-if __name__ == '__main__':
-    r = get_file_ext(" 111.txt ")
-    print(r)
