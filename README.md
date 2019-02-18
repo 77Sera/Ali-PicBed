@@ -4,4 +4,4 @@
 
 --------v1.0---------
 
-脚本实现：文件上传Ali-OSS，返回文件url，可选(markdown格式u)
+脚本实现：文件上传Ali-OSS，返回文件url，可选(markdown格式)
