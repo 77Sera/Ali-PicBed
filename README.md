@@ -22,18 +22,18 @@ windows
 
 1. 设置Config文件
 
-打开解压目录下的 .config 文件，并根据自己的ALi-OSS的情况设置。
+  打开解压目录下的 .config 文件，并根据自己的ALi-OSS的情况设置。
 
-![](http://77sera.oss-cn-beijing.aliyuncs.com/19-02-19/511742.png)
+  ![](http://77sera.oss-cn-beijing.aliyuncs.com/19-02-19/511742.png)
 
 2. 运行exe
 
-![](http://77sera.oss-cn-beijing.aliyuncs.com/19-02-19/511773.png)
+  ![](http://77sera.oss-cn-beijing.aliyuncs.com/19-02-19/511773.png)
 
 3. 选择上传 - 选择文件 - 等待上传
 
-![](http://77sera.oss-cn-beijing.aliyuncs.com/19-02-19/511829.png)
+  ![](http://77sera.oss-cn-beijing.aliyuncs.com/19-02-19/511829.png)
 
 4. 选择 Copy / MD 即可将文本框中内容复制到剪贴板
 
-![](http://77sera.oss-cn-beijing.aliyuncs.com/19-02-19/511882.png)
+  ![](http://77sera.oss-cn-beijing.aliyuncs.com/19-02-19/511882.png)
