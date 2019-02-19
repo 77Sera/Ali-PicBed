@@ -6,7 +6,6 @@ from ui_mainwindow import Ui_MainWindow
 from oss_manager import OssManager
 from my_utils import *
 from pyperclip import copy
-import sys
 
 
 class MainWindow(QtWidgets.QWidget, Ui_MainWindow):
@@ -16,7 +15,7 @@ class MainWindow(QtWidgets.QWidget, Ui_MainWindow):
 
         self.label_upload_status.setText("")
 
-        self.om = self.load_om(config_file=".config")  # 载入OssManager类
+        self.om = self.load_om(config_file="default.config")  # 载入OssManager类
 
         # 按钮 btn_upload_file 绑定 upload_file 函数
         self.btn_upload_file.clicked.connect(self.upload_file)
